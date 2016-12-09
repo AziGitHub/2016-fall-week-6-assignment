@@ -1,0 +1,18 @@
+body {
+    font: 10px sans-serif;
+}
+
+.axis path {
+    display: none;
+}
+
+.axis line {
+    shape-rendering: crispEdges;
+    stroke: #000;
+}
+
+.axis .minor line {
+    stroke: #777;
+    stroke-dasharray: 2,2;
+}
+
